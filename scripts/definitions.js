@@ -43,7 +43,7 @@ const QMAKE_SEND_WEBAPP = 4;
 const QMAKE_SEND_NODEJS = 5;
 const QMAKE_SEND_NODEJS_LOCAL = 6;  
 
-const QUIZ_KEYWORD = "2jY694$aQbBs0ERU";
+const QUIZ_KEYWORD = "kRL3azf#Jrf5fS$l";
 
 const USER_LOGIN_ANONYMOUS = "Anonymous";
 const USER_EMAIL_ANONYMOUS = "anonymous@anonymous.nowhere";
@@ -97,9 +97,9 @@ const options =
 	showLinkButton: false,
 	clearAlwaysHistory: true,
 	disableRightClickMenu: true,
-	needSaveQuiz: false,
-	saveQuizMode: QMAKE_NO_SAVE,
-	saveQuizUrl: "",
+	needSaveQuiz: true,
+	saveQuizMode: QMAKE_SEND_WEBAPP,
+	saveQuizUrl: "https://script.google.com/macros/s/AKfycby9Swl42jK2rvM-MFF2ctxlYcflkXGdmFh9OX3vQA2Vtg1t7Eu9pTFdh5qI19dYTIiE/exec",
 	allowRetakeQuiz: false,
 	maxNumRetake: 100,
 	upperMarkForRetake: 6,
